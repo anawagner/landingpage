@@ -16,22 +16,22 @@
 
 <body>
     <header>
-        <div class="content">
+        <div class="topnav">
             <h1>W.E., LLC</h1>
 
             <nav>
                 <ul>
                     <li>
-                        <a href="">Welcome</a>
+                        <a href="#">Welcome</a>
                     </li>
                     <li>
-                        <a href="">What WE do</a>
+                        <a href="#we">What WE do</a>
                     </li>
                     <li>
-                        <a href="">Testimonials</a>
+                        <a href="#quote">Testimonials</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="#call">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -54,17 +54,19 @@
         </div>
     </div>
 
-    <div class="detail">
+    <div class="info">
 
         <div class="content">
-            <h2>What WE do</h2>
+            <a id="we">
+                <h2>What WE do</h2>
+            </a>
 
-            <div class="infobox">
-                <div class="info">
-                    <div class="info-img" style="background-image: url('images/engimg.png')">
+            <div class="info-cards">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('images/engimg.png')">
                     </div>
 
-                    <div class="info-text">
+                    <div class="card-text">
                         <h3>Process Modeling</h3>
                         <p>W.E. has decades of experience creating finite element models of
                             manufacturing processes used to produce aerospace parts and
@@ -79,10 +81,10 @@
                     </div>
                 </div>
 
-                <div class="info">
-                    <div class="info-img" style="background-image: url('images/image3.jpg')">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('images/image3.jpg')">
                     </div>
-                    <div class="info-text">
+                    <div class="card-text">
                         <h3>Process Improvement</h3>
                         <p>W.E. use proven methods of continuous improvement to reduce costs and
                             eliminate waste in manufacturing processes. Contact us to discuss how lean
@@ -91,10 +93,10 @@
                     </div>
                 </div>
 
-                <div class="info">
-                    <div class="info-img" style="background-image: url('images/image4.jpg')">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('images/image4.jpg')">
                     </div>
-                    <div class="info-text">
+                    <div class="card-text">
                         <h3>Project Management</h3>
                         <p> W.E. employs PMI certified Project Management Professionals
                             and uses the project management body of knowledge that is used
@@ -106,6 +108,7 @@
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -113,7 +116,7 @@
     <div class="highlight">
 
         <div class="content">
-            <p class="quote">This is an inspiring quote or a testimonial from a customer.
+            <p class="quote"><a id="quote">This</a> is an inspiring quote or a testimonial from a customer.
                 Maybe it's just filling up space, or maybe people will actually
                 read it. Who knows? All I know is that it looks nice.
             </p>
@@ -124,19 +127,24 @@
 
     <div class="action">
         <div class="content">
-            <div class="signupbox">
-                <h3>Call to action!</h3>
-                <p>Sing up for product by clicking that button right over there!</p>
-
+            <div class="signup">
+                <div class="signup-text">
+                    <a id="call">
+                        <h3>Call to action!</h3>
+                    </a>
+                    <p>Sing up for product by clicking that button right over there!</p>
+                </div>
                 <button>Sign up</button>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="content">
-            <p>Copyright </p>
-        </div>
+        <ul>
+            <li>&copy; Wagner Engineering, LLC 2022</li>
+            <li>Wichita, KS</li>
+            <li><a href="http://wagner-eng.llc">visit link</a></li>
+        </ul>
     </footer>
 </body>
 
